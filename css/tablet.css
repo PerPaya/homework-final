@@ -1,0 +1,48 @@
+/* 768-481 */
+
+@media (max-width: 745px) {
+
+    /* header */
+    header {
+        padding-inline: 24px;
+    }
+
+    /* home-section1 */
+    .home-section1 {
+        height: 480px;
+        padding-top: 32px;
+    }
+}
+
+
+@media (max-width: 481px) {
+
+    /* header */
+    header {
+        padding: 28px 20px;
+    }
+
+    .guitar-logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .header-buttons {
+        column-gap: 16px;
+    }
+
+    .header-btn {
+        width: 32px;
+        height: 32px;
+    }
+
+    /* home-section1 */
+    .home-section1-link {
+        column-gap: 16px;
+    }
+
+    .home-section1-link-title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+}
